@@ -13,14 +13,16 @@ const Container = styled.div`
     > div
     {
         width: 832px;
-        max-width: 100%;
+        max-width: 95%;
 
         padding: 0 1rem;
         
-        position: absolute;
+        position: fixed;
         bottom: 5%;
         display: flex;
         justify-content: flex-end;
+
+        z-index: 3;
     }
 `;
 

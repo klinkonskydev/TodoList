@@ -33,7 +33,6 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
         height: 100%;
 
-        overflow: hidden;
         background: #3a3f49;
     }
 
@@ -47,6 +46,17 @@ const GlobalStyle = createGlobalStyle`
     {
         list-style-type: none;
         list-style: none;
+    }
+
+    ::-webkit-scrollbar
+    {
+        background: #3a3f49;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        background: rgba(255, 255, 255, 0.30);
+        border-radius: 9999px;
     }
 `;
 

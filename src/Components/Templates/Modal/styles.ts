@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     transition: all .5s;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 
@@ -81,6 +81,8 @@ const ModalForm = styled.form`
 
         font: 300 14px var(--font-family);
         text-transform: uppercase;
+
+        cursor: pointer;
     }
 
     input:hover,

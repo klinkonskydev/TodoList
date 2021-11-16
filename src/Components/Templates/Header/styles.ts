@@ -39,6 +39,31 @@ const HeaderDiv = styled.header`
 
         background-color: var(--dark-gray);
     }
+
+    &.all
+    {
+        a:nth-child(1)
+        {
+            color: var(--white);
+            transform: scale(1.3);
+        }
+    }
+    &.today
+    {
+        a:nth-child(2)
+        {
+            color: var(--white);
+            transform: scale(1.3);
+        }
+    }
+    &.conclued
+    {
+        a:nth-child(3)
+        {
+            color: var(--white);
+            transform: scale(1.5);
+        }
+    }
 `;
 
 export { HeaderDiv };

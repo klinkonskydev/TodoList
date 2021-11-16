@@ -6,7 +6,7 @@ import useTodo from "../../hooks/useTodos";
 export function All(){
     const { handleCheck, RemoveTodo } = useTodo();
     const { todos } = useContext(TodoContext);
-    
+
     return (
         <Container>
             <Main>
