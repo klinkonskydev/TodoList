@@ -18,7 +18,7 @@ function Home(){
     return (
         <Container>
             <Main>
-                {todos.map( item => item.day === currencyDate &&
+                {todos.map( item => item.day === currencyDate && item.completed === false &&
                     <TodoContainer key={item.id} className={item.completed ? 'checked' : ''}>
                         <NameContainer>
                             <span onClick={() => handleCheck(item)}>

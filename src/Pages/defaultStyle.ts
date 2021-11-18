@@ -50,7 +50,6 @@ const TodoContainer = styled.section`
     border-color: #FFFFFF10;
 
     transition: all 0.185s;
-
     
     color: rgba(255, 255, 255, 0.90);
 
@@ -119,6 +118,11 @@ const NameContainer = styled.div`
         padding: 2.5px 30px;
 
         cursor: default;
+
+        &:hover
+        {
+            color: var(--purple);
+        }
     }
 `;
 

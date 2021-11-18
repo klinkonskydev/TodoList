@@ -10,7 +10,7 @@ export function All(){
     return (
         <Container>
             <Main>
-                {todos.map( item => (
+                {todos.map( item => item.completed === false &&
                     <TodoContainer key={item.id} className={item.completed ? 'checked' : ''}>
                         <NameContainer>
                             <span onClick={() => handleCheck(item)}>
@@ -38,7 +38,7 @@ export function All(){
                             </p>
                         </Trash>
                     </TodoContainer>
-                ))}
+                )}
             </Main>
         </Container>
     )
