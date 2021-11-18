@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Container, ModalForm } from './styles';
 
 import useTodo from '../../../hooks/useTodos';
-import ModalContext from '../../../Contexts/ModalContext';
+import ModalContext from '../../../contexts/ModalContext';
 
 export function Modal(){
     const { onSubmitHandler, inputFieldValue } = useTodo();

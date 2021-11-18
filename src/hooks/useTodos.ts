@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import { FormEvent, useCallback, useContext, useEffect, useRef } from "react";
-import ModalContext from "../Contexts/ModalContext";
-import TodoContext from "../Contexts/TodoContext";
+import ModalContext from "../contexts/ModalContext";
+import TodoContext from "../contexts/TodoContext";
 
 type ITodo = {
     id: string

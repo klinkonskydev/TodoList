@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { Header } from '../Components/Templates/Header';
-import { Modal } from "../Components/Templates/Modal";
-import { All } from "../Pages/All";
-import Home from "../Pages/Home"
-import { Conclued } from "../Pages/Conclued";
-import { Error } from "../Pages/Error";
+import { Header } from '../components/Templates/Header';
+import { Modal } from "../components/Templates/Modal";
+import { All } from "../pages/All";
+import Home from "../pages/Home"
+import { Conclued } from "../pages/Conclued";
+import { Error } from "../pages/Error";
 
 export function Router(){
     return (

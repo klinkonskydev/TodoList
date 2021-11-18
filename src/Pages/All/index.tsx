@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Container, Main, NameContainer, TodoContainer, Trash } from "../defaultStyle";
-import TodoContext from "../../Contexts/TodoContext";
+import TodoContext from "../../contexts/TodoContext";
 import useTodo from "../../hooks/useTodos";
 
 export function All(){

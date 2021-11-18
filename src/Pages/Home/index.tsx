@@ -1,8 +1,8 @@
 import { Container, Main, NameContainer, NewItem, TodoContainer, Trash } from "../defaultStyle";
 import { useContext, useEffect, useState } from "react";
 import useTodo from "../../hooks/useTodos";
-import ModalContext from '../../Contexts/ModalContext';
-import TodoContext from "../../Contexts/TodoContext";
+import ModalContext from '../../contexts/ModalContext';
+import TodoContext from "../../contexts/TodoContext";
 
 function Home(){
     const [ currencyDate, setCurrencyDate ] = useState< number | null >(null);
