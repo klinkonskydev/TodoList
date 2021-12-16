@@ -138,12 +138,11 @@ const Trash = styled.div`
     width: 20px;
     height: 20px;
 
-    stroke: var(--white-smooth);
+    stroke: transparent;
     fill: var(--white);
 
     &:hover {
-      stroke: transparent;
-      fill: red;
+      fill: #ba0000;
     }
   }
 
@@ -156,10 +155,10 @@ const Trash = styled.div`
 `;
 
 const NewItem = styled.div`
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 
-  transition: all 0.185s;
+  transition: all 0.2s;
 
   cursor: pointer;
 
@@ -209,7 +208,7 @@ const ModalForm = styled.form`
 
   gap: 1rem 0;
 
-  background: var(--white-smooth);
+  background: #414141;
   box-shadow: 0 0 4px 1px #00000010;
   border-radius: 5px;
 
@@ -264,8 +263,11 @@ const ModalForm = styled.form`
     border-color: #fff;
   }
 
-  button:hover {
+  button:hover,
+  button:active,
+  button:focus {
     box-shadow: 0 0 4px 1px #00000025;
+    border-color: #90d7ff;
   }
 
   &.active {
