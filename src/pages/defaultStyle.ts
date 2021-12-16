@@ -74,15 +74,15 @@ const TodoContainer = styled.section`
   }
 
   &:nth-child(3n + 1) {
-    border-bottom-color: #12ffff;
+    border-bottom-color: #90d7ff;
   }
 
   &:nth-child(3n + 2) {
-    border-bottom-color: #1232ff;
+    border-bottom-color: #c9f9ff;
   }
 
   &:nth-child(3n + 3) {
-    border-bottom-color: #aaaaff;
+    border-bottom-color: #bfd0e0;
   }
 `;
 
