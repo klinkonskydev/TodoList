@@ -1,16 +1,13 @@
-import { GlobalStyle } from './styles/GlobalStyle';
+import { GlobalStyle } from "./styles/GlobalStyle";
 import { Router } from "./router";
 
-import { ModalProvider } from "./contexts/ModalContext";
-import { TodoProvider } from './contexts/TodoContext';
+import { TodoProvider } from "./contexts/TodoContext";
 
-export function App(){
+export function App() {
   return (
-    <ModalProvider>
-      <TodoProvider>
-        <GlobalStyle/>
-        <Router />
-      </TodoProvider>
-    </ModalProvider>
-  )
+    <TodoProvider>
+      <GlobalStyle />
+      <Router />
+    </TodoProvider>
+  );
 }

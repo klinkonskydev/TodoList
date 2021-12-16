@@ -2,7 +2,7 @@
   "name": "todolist",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite -r tsconfig-paths/register",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
@@ -20,6 +20,7 @@
     "@vitejs/plugin-react": "^1.0.0",
     "react-router-dom": "^6.0.2",
     "styled-components": "^5.3.3",
+    "tsconfig-paths": "^3.12.0",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
   }
